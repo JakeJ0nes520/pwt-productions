@@ -20,6 +20,7 @@ export default function PWTProductionsHomepage() {
             <a className="text-red-500" href="#home">Home</a>
             <a className="text-white/80 transition hover:text-white" href="#services">Services</a>
             <a className="text-white/80 transition hover:text-white" href="#about">About</a>
+            <a className="text-white/80 transition hover:text-white" href="#team">Team</a>
             <a className="text-white/80 transition hover:text-white" href="#media">Media</a>
             <a className="text-white/80 transition hover:text-white" href="#contact">Contact</a>
           </nav>
@@ -120,7 +121,205 @@ export default function PWTProductionsHomepage() {
     </div>
   </div>
 </section>
+<section
+  id="team"
+  className="mx-auto max-w-7xl px-6 py-24"
+>
+  <div className="mb-14 text-center">
+    <p className="mb-3 text-sm font-bold uppercase tracking-[0.3em] text-red-500">
+      Meet The Team
+    </p>
 
+    <h2 className="mx-auto max-w-4xl text-4xl font-black uppercase leading-tight md:text-5xl">
+      The People Behind The Sound
+    </h2>
+
+    <p className="mx-auto mt-6 max-w-2xl text-white/70">
+      Producers, engineers, creatives, and artists working together
+      to build authentic sound and unforgettable sessions.
+    </p>
+  </div>
+
+  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+    <div className="overflow-hidden border border-white/10 bg-white/5">
+      <img
+        src="/team3.png"
+        alt="Team Member"
+        className="h-80 w-full object-cover"
+      />
+
+      <div className="p-6">
+        <h3 className="text-2xl font-bold uppercase">
+          Jeff Jones
+        </h3>
+
+        <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
+          chief founding officer
+        </p>
+
+        <p className="mt-4 text-sm text-white/70">
+        Chief Financial Officer specializing in financial strategy, operational management, and organizational growth. Proven expertise in budgeting, forecasting, risk management, and financial leadership with a strong commitment to driving profitability, efficiency, and long-term stability.
+        </p>
+      </div>
+    </div>
+    <div className="overflow-hidden border border-white/10 bg-white/5">
+      <img
+        src="/team2.png"
+        alt="Team Member"
+        className="h-80 w-full object-cover"
+      />
+
+      <div className="p-6">
+        <h3 className="text-2xl font-bold uppercase">
+          Jake Jones
+        </h3>
+
+        <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
+          chief executive officer
+        </p>
+
+        <p className="mt-4 text-sm text-white/70">
+          Chief Executive Officer specializing in strategic marketing, brand development, and business growth. Proven leadership in creative media, promotions, and digital engagement with a strong focus on innovation, operational excellence, and long-term brand success.
+        </p>
+      </div>
+    </div>
+        <div className="overflow-hidden border border-white/10 bg-white/5">
+      <img
+        src="/team1.png"
+        alt="Team Member"
+        className="h-80 w-full object-cover object-top"
+      />
+
+      <div className="p-6">
+        <h3 className="text-2xl font-bold uppercase">
+          francesca Marie        </h3>
+
+        <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
+          Director of Marketing
+        </p>
+
+        <p className="mt-4 text-sm text-white/70">
+        Strategic marketing leader with expertise in brand development, integrated marketing campaigns, and digital media strategy. Experienced in leading high-performing teams and executing innovative campaigns that strengthen brand presence.
+        </p>
+      </div>
+    </div>
+        <div className="overflow-hidden border border-white/10 bg-white/5">
+      <img
+        src="/team4.png"
+        alt="Team Member"
+        className="h-80 w-full object-cover"
+      />
+
+      <div className="p-6">
+        <h3 className="text-2xl font-bold uppercase">
+          Brandon Garcia
+        </h3>
+
+        <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
+          Event & Promotions Manager
+        </p>
+
+        <p className="mt-4 text-sm text-white/70">
+       Experienced Event & Promotions Manager specializing in strategic event planning, promotional marketing, and audience development. Proven ability to manage large-scale events, oversee cross-functional coordination, and execute innovative campaigns that strengthen brand presence and enhance customer engagement.
+        </p>
+      </div>
+    </div>
+    <div className="overflow-hidden border border-white/10 bg-white/5">
+
+  <img
+    src="/team5.png"
+    alt="Team Member"
+    className="h-80 w-full object-cover"
+  />
+
+  <div className="p-6">
+    <h3 className="text-2xl font-bold uppercase">
+      Andy Payne
+    </h3>
+
+    <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
+      Lead Audio & Recording Engineer
+    </p>
+
+    <p className="mt-4 text-sm text-white/70">
+      Lead Audio & Recording Engineer with a degree in Audio Engineering and extensive experience in studio recording, mixing, sound design, and music production. Dedicated to delivering professional, high-quality audio while helping artists refine their sound through creative direction, technical precision, and a passion for authentic music production.
+    </p>
+  </div>
+
+</div>
+<div className="overflow-hidden border border-white/10 bg-white/5">
+
+  <img
+    src="/team6.png"
+    alt="Team Member"
+    className="h-80 w-full object-cover"
+  />
+
+  <div className="p-6">
+    <h3 className="text-2xl font-bold uppercase">
+      Michael Tellez
+    </h3>
+
+    <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
+      Head of Acquisitions
+    </p>
+
+    <p className="mt-4 text-sm text-white/70">
+      Head of Acquisitions specializing in professional audio hardware, studio technology, and production infrastructure. Experienced in sourcing high-end recording equipment, evaluating emerging audio technologies, and building strategic partnerships that support innovative music production, studio development, and high-quality sound engineering environments.
+    </p>
+  </div>
+
+</div>
+<div className="overflow-hidden border border-white/10 bg-white/5">
+
+  <img
+    src="/team7.png"
+    alt="Team Member"
+    className="h-80 w-full object-cover"
+  />
+
+  <div className="p-6">
+    <h3 className="text-2xl font-bold uppercase">
+      Daniel Jones
+    </h3>
+
+    <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
+      Executive Engineer
+    </p>
+
+    <p className="mt-4 text-sm text-white/70">
+      Executive Engineer specializing in IT infrastructure, cybersecurity, studio hardware integration, and professional audio systems. Experienced in managing secure production environments, optimizing recording technology, maintaining high-performance hardware, and implementing reliable technical solutions that support advanced audio production and studio operations.
+    </p>
+  </div>
+
+</div>
+<div className="overflow-hidden border border-white/10 bg-white/5">
+
+  <img
+    src="/team8.png"
+    alt="Team Member"
+    className="h-80 w-full object-cover"
+  />
+
+  <div className="p-6">
+    <h3 className="text-2xl font-bold uppercase">
+      Sarah Jones
+    </h3>
+
+    <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
+      Creative Director of Artist Wellness & Styling
+    </p>
+
+    <p className="mt-4 text-sm text-white/70">
+      Creative Director of Artist Wellness & Styling specializing in artist image development, personal branding, health and wellness coordination, makeup and wardrobe styling, and overall creative presentation. Dedicated to helping artists build confidence, maintain professional appearance standards, and develop a strong visual identity that aligns with their music, lifestyle, and brand.
+    </p>
+  </div>
+
+</div>
+  </div>
+  
+</section>
    <section id="about" className="bg-zinc-950 px-6 py-28">
   <div className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-2 lg:items-center">
 
@@ -163,7 +362,7 @@ export default function PWTProductionsHomepage() {
 
       <div className="absolute bottom-0 left-0 p-8">
         <p className="text-sm font-black uppercase tracking-[0.35em] text-red-500">
-          Est. 2000s
+          Est. 2015
         </p>
 
         <h3 className="mt-3 text-3xl font-black uppercase">
@@ -241,6 +440,7 @@ export default function PWTProductionsHomepage() {
         </div>
       </div>
     </div>
+    
   </div>
 </section>
       <section id="media" className="bg-black px-6 py-24">
@@ -326,7 +526,9 @@ export default function PWTProductionsHomepage() {
       <div className="mx-auto max-w-5xl">
 <div className="mt-8 rounded-xl border border-zinc-800 bg-black p-4 transition duration-300 hover:border-red-500/40">
   <p className="mb-4 text-sm font-black uppercase tracking-[0.3em] text-red-500">
-    Featured Music Video
+    Featured 
+Song by Poor White Trash Productions.
+Official video created by Epidemic Media.
   </p>
 
   <iframe
@@ -349,7 +551,7 @@ export default function PWTProductionsHomepage() {
       <h2 className="text-5xl font-black uppercase leading-none md:text-7xl">
         Merch drop
         <br />
-        sold out.
+        
       </h2>
 
       <p className="mt-8 max-w-2xl text-lg leading-8 text-white/70">
@@ -541,7 +743,7 @@ export default function PWTProductionsHomepage() {
 
       <div>
         <p className="text-sm font-black uppercase tracking-[0.25em]">
-          Poor White Trash Productions
+          Poor White Trash Productions LLC
         </p>
         <p className="mt-1 text-sm text-white/50">
           Audio. Video. Design. Promotion.
