@@ -19,6 +19,7 @@ export default function PWTProductionsHomepage() {
           <nav className="hidden items-center gap-8 text-sm font-bold uppercase tracking-wider md:flex">
             <a className="text-red-500" href="#home">Home</a>
             <a className="text-white/80 transition hover:text-white" href="#services">Services</a>
+            <a className="text-white/80 transition hover:text-white" href="#beats">Beats</a>
             <a className="text-white/80 transition hover:text-white" href="#about">About</a>
             <a className="text-white/80 transition hover:text-white" href="#team">Team</a>
             <a className="text-white/80 transition hover:text-white" href="#media">Media</a>
@@ -119,6 +120,99 @@ export default function PWTProductionsHomepage() {
         </p>
       </div>
     </div>
+    <section id="beats" className="border-b border-white/10 bg-zinc-950 px-6 py-24">
+  <div className="mx-auto max-w-7xl">
+    <div className="mb-14 max-w-3xl">
+      <p className="text-sm font-black uppercase tracking-[0.35em] text-red-500">
+        Instrumentals
+      </p>
+
+      <h2 className="mt-4 text-4xl font-black uppercase tracking-tight sm:text-5xl">
+        Original instrumentals ready for artists.
+      </h2>
+
+      <p className="mt-6 text-lg leading-8 text-white/70">
+        Browse original beats, preview the sound, and contact us for leases, exclusives, and custom production.
+      </p>
+    </div>
+
+<div className="border border-white/10 bg-black p-6">
+<img
+  src="/phantom.png"
+  alt="Phantom of the Opera Cover"
+className="mb-8 max-h-[600px] w-full border border-white/10 object-contain"
+/>
+  <h3 className="text-2xl font-black uppercase">
+    Phantom of the Opera
+  </h3>
+
+  <p className="mt-2 text-sm uppercase tracking-widest text-red-500">
+    Dark Orchestral Trap • 140 BPM
+  </p>
+<p className="mt-2 text-sm text-white/50">
+  Produced by Jake Jones
+</p>
+  <p className="mt-4 text-white/70">
+    Cinematic horror-inspired trap instrumental built with orchestral melodies, dark atmosphere, and hard-hitting drums. Designed for artists looking for dramatic, emotional, and aggressive energy.
+  </p>
+
+  <div className="mt-8 space-y-2 text-sm uppercase">
+    <div className="flex items-center justify-between border-b border-white/10 pb-2">
+      <span>MP3 Lease</span>
+      <span>$25</span>
+    </div>
+
+    <div className="flex items-center justify-between border-b border-white/10 pb-2">
+      <span>WAV Lease</span>
+      <span>$50</span>
+    </div>
+
+    <div className="flex items-center justify-between border-b border-white/10 pb-2">
+      <span>Unlimited License</span>
+      <span>$150</span>
+    </div>
+
+<div className="flex items-center justify-between pb-2">
+  <span>Exclusive Rights</span>
+  <span>$200</span>
+</div>
+  </div>
+<audio controls className="mt-6 w-full opacity-90">
+  <source src="/phantom.mp3" type="audio/mpeg" />
+</audio>
+  <div className="mt-6 flex gap-3">
+    <a
+     href="https://cash.app/$jakejones520"
+     target="_blank"
+rel="noopener noreferrer"
+      className="border border-red-500 px-5 py-3 text-sm font-black uppercase transition hover:bg-red-500 hover:text-black"
+    >
+      Purchase
+    </a>
+
+<a
+  href="https://cash.app/$jakejones520"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="border border-red-500 px-5 py-3 text-sm font-black uppercase transition hover:bg-red-500 hover:text-black"
+  
+>
+  EXCLUSIVE LICENSE
+</a>
+  </div>
+
+<p className="mt-4 text-xs leading-5 text-white/250">
+  After payment, include the beat title and license type in the Cash App note.
+  Example: Phantom of the Opera - WAV Lease.
+</p>
+  <div className="mt-4 flex flex-wrap gap-2 text-xs uppercase">
+  <span className="border border-white/10 px-3 py-1">Dark Trap</span>
+  <span className="border border-white/10 px-3 py-1">Orchestral</span>
+  <span className="border border-white/10 px-3 py-1">Cinematic</span>
+</div>
+</div>
+  </div>
+</section>
   </div>
 </section>
 <section
