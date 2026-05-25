@@ -206,7 +206,7 @@ export default function PWTProductionsHomepage() {
     </div>
         <div className="overflow-hidden border border-white/10 bg-white/5">
       <img
-        src="/team4.png"
+        src="/Team4.png"
         alt="Team Member"
         className="h-80 w-full object-cover"
       />
