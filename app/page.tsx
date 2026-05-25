@@ -155,7 +155,7 @@ export default function PWTProductionsHomepage() {
         </h3>
 
         <p className="mt-2 text-red-500 uppercase text-sm tracking-widest">
-          chief founding officer
+          chief financial officer/Founder
         </p>
 
         <p className="mt-4 text-sm text-white/70">
