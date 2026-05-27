@@ -181,6 +181,8 @@ className="mb-8 max-h-[600px] w-full border border-white/10 object-contain"
   <source src="/phantom.mp3" type="audio/mpeg" />
 </audio>
   <div className="mt-6 flex gap-3">
+    
+    
     <a
      href="https://cash.app/$jakejones520"
      target="_blank"
@@ -212,6 +214,33 @@ rel="noopener noreferrer"
 </div>
 </div>
   </div>
+  <div className="mt-8 border-t border-white/10 pt-6">
+  <h4 className="text-sm font-black uppercase tracking-widest text-red-500">
+    License Terms
+  </h4>
+
+  <ul className="mt-4 space-y-3 text-sm leading-6 text-white/70">
+    <li>
+      MP3 Lease includes tagged MP3 file for promotional and non-exclusive use.
+    </li>
+
+    <li>
+      WAV Lease includes high-quality WAV + MP3 files for commercial release.
+    </li>
+
+    <li>
+      Unlimited License includes unlimited streams, performances, and monetized use.
+    </li>
+
+    <li>
+      Exclusive Rights remove the beat from future sales after purchase.
+    </li>
+
+    <li>
+      Credit must be given as: “Produced by Jake Jones”.
+    </li>
+  </ul>
+</div>
 </section>
   </div>
 </section>
@@ -446,11 +475,11 @@ rel="noopener noreferrer"
     </div>
 
     <div className="relative overflow-hidden rounded-2xl border border-zinc-800 shadow-2xl">
-      <img
-        src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop"
-        alt="Recording studio"
-        className="h-[520px] w-full object-cover"
-      />
+<img
+  src="/pwtplogo.jpg"
+  alt="Poor White Trash Productions Logo"
+  className="h-full w-full object-contain p-10"
+ />
 
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
 
@@ -741,6 +770,14 @@ Official video created by Epidemic Media.
 
       <h3 className="mt-3 text-2xl font-black uppercase">
         Walking Dead LP (Physical)
+        <a
+  href="https://www.amazon.com/dp/B0FVXNQQ6T/ref=sr_1_1?crid=15CH32UTT083D&dib=eyJ2IjoiMSJ9.SY7sY-Ke-1y9byzrTAKxBQ.OBx9VEkO272li5cl4gTuhfuRj8PhIZGH-4tQVZMK5a4&dib_tag=se&keywords=jake+jones+walking+dead+lp&qid=1779843074&sprefix=jake+jones+walking+dead+lp%2Caps%2C173&sr=8-1"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 inline-block border border-red-500 px-4 py-2 text-xs font-black uppercase tracking-widest transition hover:bg-red-500 hover:text-black"
+>
+  Buy on Amazon
+</a>
       </h3>
 
       <p className="mt-3 text-white/70">
@@ -762,11 +799,19 @@ Official video created by Epidemic Media.
       </p>
 
       <h3 className="mt-3 text-2xl font-black uppercase">
-        Pain Is Beauty (Physical)
+        Red Dot Society (Physical)
+        <a
+  href="https://www.amazon.com/dp/B0BFN123MN/ref=sr_1_1?crid=KVNIU6P5UL1D&dib=eyJ2IjoiMSJ9.HubBr1VNIM2kM5h6DdvtDg.sHeabjbpEYfax-Z5xvXHM8RjAjGLVOAkoTWRkZWL_sY&dib_tag=se&keywords=jake+jones+red+dot+society&qid=1779843134&sprefix=jake+jones+red+dot+society%2Caps%2C169&sr=8-1"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 inline-block border border-red-500 px-4 py-2 text-xs font-black uppercase tracking-widest transition hover:bg-red-500 hover:text-black"
+>
+  Buy on Amazon
+</a>
       </h3>
 
       <p className="mt-3 text-white/70">
-        Collector's edition CD with limited artwork packaging.
+        Limited physical CD release from the original drop.
       </p>
     </div>
   </div>
@@ -784,11 +829,19 @@ Official video created by Epidemic Media.
       </p>
 
       <h3 className="mt-3 text-2xl font-black uppercase">
-        Red Dot Society (Physical)
+        Pain is Beauty (Physical)
+        <a
+  href="https://www.amazon.com/dp/B0FL2Q641Q/ref=sr_1_1?crid=2V3AL08WPB0ES&dib=eyJ2IjoiMSJ9.JUKOw37LSm12tt_QJo_8DVqbU0iOq8PhnC_tp752eO6_R9fIzGg6ItWX3aoxKL-wvBUY-8hyMTPDxed7Ldo36l4t2AzVNVdSxVQZ6o0jXokd2rFw9IUNhiQpZ2mAbnwC6Y9_XxZ7z7BwmjC1JWj1yp-C0boqPUyCaG5YXhsqXQZeL_-ZDqCQYVPbgatt5mVm.CMG2dKq09Awwb5YRg9U6nIc94d3xDynzYhHj31FrD9o&dib_tag=se&keywords=jake+jones+pain+is+beauty&qid=1779843161&sprefix=jake+jones+pain+is+beauty%2Caps%2C172&sr=8-1"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 inline-block border border-red-500 px-4 py-2 text-xs font-black uppercase tracking-widest transition hover:bg-red-500 hover:text-black"
+>
+  Buy on Amazon
+</a>
       </h3>
 
       <p className="mt-3 text-white/70">
-        Rare independent CD release from the archive vault.
+        Limited physical CD release from the original drop.
       </p>
     </div>
   </div>
@@ -801,7 +854,7 @@ Official video created by Epidemic Media.
             <p className="text-sm font-black uppercase tracking-[0.35em] text-red-500">Contact</p>
             <h2 className="mt-4 text-5xl font-black uppercase tracking-tight">Ready to build something?</h2>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
-              Tell us what you're working on, what stage it's in, and what kind of sound you’re chasing.
+              Tell us what you're working on, what stage it's in, and what kind of sound you're chasing.
             </p>
           </div>
           <div className="rounded-2xl border border-white/10 bg-black p-8">
